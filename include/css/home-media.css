@@ -1,0 +1,129 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+    .header .navbar .mini-nav {
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+    .banner-bottam .bdr {
+        border-right:none;
+        border-left: none;
+    }
+    .banner-bottam .bdr1 {
+        border-right: none;
+    }
+    .banner-content{
+        padding-bottom: 20px;
+    }
+    .headline::before {
+        width: 20%;
+    }
+    .team .headline::before {
+        width: 24%;
+        
+    }
+    .about-content .headline::before {
+        width: 22%;
+      
+    }
+    .footer-content {
+        padding-bottom: 20px;
+    }
+    .team-content {
+        margin-top: -80px;
+        height: 200px;
+    }
+
+    .team-content h3 {
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .cash-hedline {
+        font-size: 70px;
+        line-height: 60px;
+        
+    }
+    .cashify {
+        padding-top: 100px;
+    }
+    .cash-banner {
+        height: 400px;
+    }
+    .address-map iframe{
+        height: 400px;
+    }
+    .fracture-content {
+        padding: 30px 30px;
+    }
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px){
+    .fracture-content {
+        padding: 20px 20px;
+    }
+    .header .navbar .mini-nav {
+        gap: 10px;
+        justify-content: center;
+    }
+    .service .nav-pills {
+        justify-content: center;
+        gap: 20px;
+    }
+    .banner-headline {
+        margin: 0;
+        font-size: 20px;
+    }
+    .doctor-content .doctor-headline {
+        color: #289AC0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .doctor-content h4 {
+        color: var(--sky);
+        font-size: 16px;
+    }
+    .headline {
+        font-size: 25px;
+        
+    }
+    .item{
+        padding: 0px 40px;
+    }
+    .team-img img {
+        width: 50% !important;
+    }
+    .cash-hedline {
+            font-size: 40px;
+            line-height: 30px;
+            text-align: center;
+            
+    }
+    .cash-banner {
+        height: 300px;
+    }
+    .cashify {
+        padding-top:60px;
+    }
+    .section-padding {
+        padding-top: 30px;
+    }
+    .cash-listing {
+        padding-bottom: 30px;
+    }
+    
+    .top-header .logo {
+        max-width: 100px;
+        width: 100%;
+    }
+    .bookings-btn .btn1 {
+      font-size: 14px;
+    }
+    .bookings-btn .btn2 {
+        font-size: 14px;
+      }
+
+}

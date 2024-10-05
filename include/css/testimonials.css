@@ -1,0 +1,95 @@
+
+:root {
+    --yellow:#FFCD05;
+    --sky:#A7DFF7;
+    --white: #ffff;
+    --bg: #1D3766;
+    --skydark:#289AC0;
+    --bg-section:#F0EFEF;
+
+}
+
+body{
+    background-color: var(--bg-section);
+}
+
+.testimonials{
+    padding-bottom: 50px;
+}
+.testimonials .title{
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.testimonials .title::before{
+    content: '';
+    position: absolute;
+    width: 17%;
+    height: 5px;
+    bottom: 0;
+    background-color: var(--bg);
+
+}
+
+.testimonials-img{
+    background-color: var(--white);
+    width: 200px;
+    height: 200px;
+    border: 3px solid var(--skydark);
+    border-radius: 50%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.testimonials-content{
+    background-color: var(--white);
+    padding: 40px;
+    margin-top: -70px;
+}
+
+.testimonials-content .inverted1 img{
+   max-width: 70px;
+   width: 100%;
+   padding-bottom: 20px;
+
+}
+
+
+.testimonials-content .inverted2 img{
+  max-width: 70px;
+  width: 100%;
+  
+}
+.testimonials-content a{
+    text-decoration: none;
+    color: var(--skydark);
+}
+
+.testimonials-content .inverted2{
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.testimonials-content p{
+    text-align: justify;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -55px;
+}
+
+.slick-next {
+    right: -36px;
+}

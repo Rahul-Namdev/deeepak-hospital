@@ -1,0 +1,55 @@
+
+:root {
+    --yellow:#FFCD05;
+    --sky:#A7DFF7;
+    --white: #ffff;
+    --bg: #1D3766;
+    --skydark:#289AC0;
+    --bg-section:#F0EFEF;
+
+}
+body{
+    background-color: #F0EFEF;
+}
+
+.address-bg{
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.address{
+    padding-bottom: 50px;
+}
+
+.address-content{
+    padding: 50px 20px;
+    
+}
+
+.address-content a{
+    text-decoration: none;
+    color: var(--skydark);
+}
+
+.address-content ul{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.address-content ul li span{
+    background-color: var(--skydark);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: var(--white);
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.address-content ul li{
+    padding-top: 10px;
+}
+.address-map iframe{
+    width: 100%;
+}

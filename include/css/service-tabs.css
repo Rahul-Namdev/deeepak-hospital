@@ -1,0 +1,58 @@
+
+:root {
+    --yellow:#FFCD05;
+    --sky:#A7DFF7;
+    --white: #ffff;
+    --bg: #1D3766;
+    --skydark:#289AC0;
+    --bg-section:#F0EFEF;
+
+}
+
+body{
+    background-color: var(--bg-section);
+}
+
+.fracture-img img{
+    width: 100%;
+}
+
+.fracture-headline{
+    font-weight: 500;
+    color: var(--bg);
+    position: relative;
+    padding-bottom: 10px;
+}
+.fracture-headline::before{
+    content: '';
+    position: absolute;
+    width: 24%;
+    height: 3px;
+    bottom: 0;
+    background-color: var(--bg);
+  
+}
+.fracture-content {
+    padding: 50px 30px;
+}
+.fracture-content p{
+    text-align: justify;
+}
+
+.fracture-content span{
+    color: var(--skydark);
+}
+.fracture-img2{
+    background-color:#E0F3FB;
+    padding: 40px;
+}
+
+.fracture-img2 h3{
+    text-align: center;
+    color: var(--skydark);
+}
+.fracture-img2 img{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
